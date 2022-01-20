@@ -39,14 +39,15 @@ INSERT INTO `bai5_baitapviewindexstoreprocedure`.`products` (`productCode`, `pro
   call findAllProduct();
   
    DELIMITER //
-  create PROCEDURE addNewProduct()
+	drop PROCEDURE if exists addNewProduct;
+  create PROCEDURE addNewProduct(in productCode char(3), in productName varchar(45), in productPrice double,in productAmount int,in productDescription varchar(45), in productStatus TINYINT )
   begin
-  insert into products (`productCode`,`productName`,`productPrice`,`productAmount`,`productStatus`) values
-  ('AB3', 'chuột khong day', '300000', '40', '1');
+  insert into products (`productCode`,`productName`,`productPrice`,`productAmount`, `productDescription`,`productStatus`) values
+  (productCode, productName, productPrice, productAmount,productDescription,productStatus);
   end//
   DELIMITER ;
   
-  call addNewProduct();
+  call addNewProduct('AC1','macbook','45000000','10','moi', '0');
   
 DELIMITER //
   create PROCEDURE editProductById(in id int)
