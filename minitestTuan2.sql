@@ -170,3 +170,32 @@ select count(*) as 'so tour bat dau trong thang 1/2021'from tour t where month(t
 --    tinh so tour ket thuc trong thang 2 nam 2021 
 select count(*) as 'so tour ket thuc trong thang 2/2021'from tour t where month(t.endDay) = 2 and year(t.endDay) = 2021;
     
+-- tinh tong thu nhap cua cac loai tour
+select loai_tour.name_tour, sum(tour.price_tour) as 'thu nhap cua tour' from loai_tour
+join tour on loai_tour.idloai_Tour = tour.idloai_Tour
+join hoadontour on hoadontour.tour_id = tour.idtour
+group by loai_tour.name_tour;
+
+-- tao view khach hang va so lan dat tour
+create view customer_tour as
+select customer. name , count(*) as 'solandattour' from customer
+join hoadontour on hoadontour.customer_id = customer.idcustomer
+group by customer.name;
+
+-- khach hang tham gia nhieu tour nhat
+select * from customer_tour where customer_tour.solandattour = (select max(solandattour) from customer_tour);
+
+
+-- Xóa khách hàng chưa tham gia tour nào
+delete from customer where not exists 
+(select * from hoadontour where customer.idcustomer = hoadontour.customer_id);
+
+-- Thống kê số lượng tour và thu nhập của các thành phố
+select thanhpho.name_thanhpho , count(*) as 'soluongtour', sum(tour.price_tour) as 'thunhap' 
+from hoadontour
+join tour on  tour.idtour= hoadontour.tour_id
+join  diemdendulich on diemdendulich.iddiemdendulich= tour.diadiem_id 
+join  thanhpho on thanhpho.idthanhpho = diemdendulich.id_thanhpho
+group by thanhpho.name_thanhpho;
+
+
