@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29051b8f-b736-48b2-a561-235c0734ca76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/thuchanhsudungboxmodel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloword/src/main/java/helloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/module3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai2_taoCSDLquanlysinhvien.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai3_baitaptruyvandulieuCSDLquanlysinhvien.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai3_quanlybanhang.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai3_themdulieuvaoCSDLquanlysinhvien.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai3_thuchanhtruyvanCSDLquanlysinhvien.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai4_thuchanhhamvoiCSDLquanlysinhvien.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai5_baitapViewIndexStoreProcedure.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai5_thuchanhStoreProcedure.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai5_thuchanhViewtrongMySQL.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai5_thuchanhchimuctrongMySQL.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai5_thuchanhtruyenthamsovaoStoreProcedure.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minitestTuan2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quanlynhanvien.mwb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="247oXavv88JAk6bRKFn169gDLoY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29051b8f-b736-48b2-a561-235c0734ca76" name="Changes" comment="" />
+      <created>1642991027195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642991027195</updated>
+      <workItem from="1642991028470" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
