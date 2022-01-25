@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11c6c147-8520-4308-a023-02cc891fc83a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bai7/thuchanhsudungboxmodel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloword/src/main/java/helloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/module3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai2_taoCSDLquanlysinhvien.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai3_baitaptruyvandulieuCSDLquanlysinhvien.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai3_quanlybanhang.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai3_themdulieuvaoCSDLquanlysinhvien.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai3_thuchanhtruyvanCSDLquanlysinhvien.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai4_thuchanhhamvoiCSDLquanlysinhvien.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai5_baitapViewIndexStoreProcedure.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai5_thuchanhStoreProcedure.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai5_thuchanhViewtrongMySQL.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai5_thuchanhchimuctrongMySQL.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai5_thuchanhtruyenthamsovaoStoreProcedure.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minitestTuan2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quanlynhanvien.mwb" beforeDir="false" />
+    <list default="true" id="7fdcfef5-6e71-4e00-a42c-f1d8bec6539b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai6_nhungcssvaohtml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai6_thuchanhCSS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloword/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloword/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="23ztp6aTMTRLb66DGIj0cFmDY8w" />
+  <component name="ProjectId" id="24AbqIi8vRztN1VR0wFZoNboJK8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,8 +38,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai8" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -71,19 +57,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="11c6c147-8520-4308-a023-02cc891fc83a" name="Changes" comment="" />
-      <created>1642748926858</created>
+      <changelist id="7fdcfef5-6e71-4e00-a42c-f1d8bec6539b" name="Changes" comment="" />
+      <created>1643076530753</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1642748926858</updated>
-      <workItem from="1642748929915" duration="387000" />
-      <workItem from="1642749848857" duration="62000" />
-      <workItem from="1642990945910" duration="81000" />
-      <workItem from="1642991047985" duration="44000" />
+      <updated>1643076530753</updated>
+      <workItem from="1643076533315" duration="173000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
