@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fdcfef5-6e71-4e00-a42c-f1d8bec6539b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai6_nhungcssvaohtml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai6_thuchanhCSS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloword/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloword/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap/StudentManager/src/main/java/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap/StudentManager/src/main/java/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap/StudentManager/src/main/java/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap/StudentManager/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap/StudentManager/src/main/webapp/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap/WorldPopulation/src/main/java/controler/PopulationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap/WorldPopulation/src/main/java/model/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap/WorldPopulation/src/main/java/service/CityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap/WorldPopulation/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap/WorldPopulation/src/main/webapp/view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai10" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -63,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643076530753</updated>
       <workItem from="1643076533315" duration="173000" />
+      <workItem from="1643191671052" duration="99000" />
     </task>
     <servers />
   </component>
