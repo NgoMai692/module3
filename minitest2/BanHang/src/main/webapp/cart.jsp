@@ -12,5 +12,31 @@
 </head>
 <body>
 
+<h1>Your Cart</h1>
+<br/>
+<br/>
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Price</td>
+        <td>Quantity</td>
+        <td>Description</td>
+        <td colspan="2">Action</td>
+    </tr>
+    <c:forEach items="${products}" var="product">
+        <tr>
+            <td>${product.getId()}</td>
+            <td>${product.getName()}</td>
+            <td>${product.getPrice()}</td>
+            <td>${product.getQuantity()}</td>
+            <td>${product.getDescription()}</td>
+            <td>
+                <button><a style="text-decoration: none" href="/products?action=delete&id=${product.getId()}">Delete</a></button>
+            </td>
+        </tr>
+    </c:forEach>
+    <button><a style="text-decoration: none" href="/products?action=pay"></a> Pay</button>
+</table>
 </body>
 </html>

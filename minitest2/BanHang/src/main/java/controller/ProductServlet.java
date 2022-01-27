@@ -58,6 +58,9 @@ public class ProductServlet extends HttpServlet {
             case "cartAdd":
                 cartAdd(request,response);
                 break;
+            case "pay":
+
+                break;
             case "all":
                 displayAll(request, response);
                 break;
