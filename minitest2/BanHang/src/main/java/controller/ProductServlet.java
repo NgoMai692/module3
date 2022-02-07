@@ -67,26 +67,21 @@ public class ProductServlet extends HttpServlet {
         }
     }
 
-    private void cartAdd(HttpServletRequest request, HttpServletResponse response) {
+    private void cartAdd(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException{
         int id = Integer.parseInt(request.getParameter("id"));
         Product product = productService.getProductInf(id);
         cartService.addProduct(product);
+        displayAll(request,response);
     }
 
     private void sortDecrease(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         productService.sortDecrease();
-        ArrayList<Product> products = productService.getProducts();
-        request.setAttribute("products", products);
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("view.jsp");
-        requestDispatcher.forward(request, response);
+        displayAll(request,response);
     }
 
     private void sortIncrease(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         productService.sortIncrease();
-        ArrayList<Product> products = productService.getProducts();
-        request.setAttribute("products", products);
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("view.jsp");
-        requestDispatcher.forward(request, response);
+        displayAll(request,response);
     }
 
     private void displayDetail(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
@@ -98,7 +93,10 @@ public class ProductServlet extends HttpServlet {
     }
 
     private void goCart(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {
-        response.sendRedirect("cart.jsp");
+        ArrayList<Product> products = cartService.getCartList();
+        request.setAttribute("products", products);
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("cart.jsp");
+        requestDispatcher.forward(request, response);
     }
 
     private void displayAll(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
@@ -115,10 +113,7 @@ public class ProductServlet extends HttpServlet {
         int quantity = Integer.parseInt(request.getParameter("quantity"));
         String description = request.getParameter("description");
         productService.addProduct(new Product(id,name,price,quantity,description));
-        ArrayList<Product> products = productService.getProducts();
-        request.setAttribute("products", products);
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("view.jsp");
-        requestDispatcher.forward(request, response);
+        displayAll(request,response);
 
     }
 

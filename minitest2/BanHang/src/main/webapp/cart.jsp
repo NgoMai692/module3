@@ -13,6 +13,7 @@
 <body>
 
 <h1>Your Cart</h1>
+<button><a style="text-decoration: none" href="/products"></a> Back home</button>
 <br/>
 <br/>
 <table>
@@ -24,19 +25,19 @@
         <td>Description</td>
         <td colspan="2">Action</td>
     </tr>
-    <c:forEach items="${products}" var="product">
+    <c:forEach items="${carts}" var="cart">
         <tr>
-            <td>${product.getId()}</td>
-            <td>${product.getName()}</td>
-            <td>${product.getPrice()}</td>
-            <td>${product.getQuantity()}</td>
-            <td>${product.getDescription()}</td>
+            <td>${cart.getId()}</td>
+            <td>${cart.getName()}</td>
+            <td>${cart.getPrice()}</td>
+            <td>${cart.getQuantity()}</td>
+            <td>${cart.getDescription()}</td>
             <td>
-                <button><a style="text-decoration: none" href="/products?action=delete&id=${product.getId()}">Delete</a></button>
+                <button><a style="text-decoration: none" href="/products?action=delete&id=${cart.getId()}">Delete</a></button>
             </td>
         </tr>
     </c:forEach>
-    <button><a style="text-decoration: none" href="/products?action=pay"></a> Pay</button>
+    <a style="text-decoration: none" href="/products?action=pay"> Pay</a>
 </table>
 </body>
 </html>

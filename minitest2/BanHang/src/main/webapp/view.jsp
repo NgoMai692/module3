@@ -38,7 +38,7 @@
                 <button><a style="text-decoration: none" href="/products?action=detail&id=${product.getId()}">detail</a></button>
             </td>
             <td>
-                <button><a style="text-decoration: none" href="/products?action=detail&id=${product.getId()}">Add cart</a></button>
+                <button><a style="text-decoration: none" href="/products?action=cartAdd&id=${product.getId()}">Add cart</a></button>
             </td>
         </tr>
     </c:forEach>
